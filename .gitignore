@@ -1,0 +1,56 @@
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.env
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# IDE & Editor (VS Code)
+# =========================
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Jupyter Notebooks
+# =========================
+# (Covering the .ipynb file from your first screenshot)
+.ipynb_checkpoints/
+
+# =========================
+# Data Files
+# =========================
+# (Prevents accidentally committing your TSLA.csv dataset)
+*.csv
+*.xlsx
+*.json
+
+# =========================
+# Deep Learning Artifacts
+# =========================
+*.h5
+*.keras
+*.ckpt
+logs/
+
+# =========================
+# Streamlit Defaults
+# =========================
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+Thumbs.db
